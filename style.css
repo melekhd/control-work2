@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    height: 100vh;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container2-fluid {
+    height: 100vh;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: none;
+}
+
+.header {
+    height: 85px;
+    width: 100%;
+    background-color: rgb(96, 100, 102);
+    padding-top: 25px;
+    padding-left: 383px;
+}
+
+.header2 {
+    height: 85px;
+    width: 100%;
+    background-color: rgb(96, 100, 102);
+    padding-top: 25px;
+    padding-left: 600px;
+}
+
+.lorem {
+    width: 100%;
+    min-height: calc(100vh - 85px);
+    background-color: white;
+    padding: 20px;
+    color: rgb(96, 100, 102);
+    font-size: 16px;
+    line-height: 27px;
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+}
+
+.lorem2 {
+    width: 100%;
+    min-height: calc(100vh - 85px);
+    background-color: white;
+    padding: 20px;
+    color: rgb(96, 100, 102);
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.icons {
+    height: 35px;
+    width: 700px;
+}
+
+.style,
+.fontFamily {
+    height: 35px;
+    margin-left: 15px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.oneClass {
+    height: 35px;
+    width: 45px;
+    padding-top: 5px;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.code {
+    pointer-events: none;
+}
+
+.oneClass:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.align {
+    height: 35px;
+    margin-left: 15px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.lock {
+    height: 35px;
+    width: 45px;
+    padding-top: 5px;
+    margin-left: 15px;
+    font-size: 18px;
+    background-color: white;
+    color: red;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.lock:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.drop1 {
+    width: 160px;
+    height: 146px;
+    position: absolute;
+    top: 63px;
+    left: 47vw;
+    background-color: white;
+    border: 0.5px solid rgb(96, 100, 102);
+    border-radius: 3px;
+    text-align: left;
+    display: none;
+}
+
+.drop2 {
+    width: 105px;
+    height: 236px;
+    position: absolute;
+    top: 63px;
+    left: 54vw;
+    background-color: white;
+    border: 0.5px solid rgb(96, 100, 102);
+    border-radius: 3px;
+    text-align: left;
+    display: none;
+}
+
+.drop1>p:nth-child(1) {
+    font-family: Arial;
+}
+
+.drop1>p:nth-child(2) {
+    font-family: Georgia;
+}
+
+.drop1>p:nth-child(3) {
+    font-family: Impact;
+}
+
+.drop1>p:nth-child(4) {
+    font-family: Tahoma;
+}
+
+.drop1>p:nth-child(5) {
+    font-family: Times New Roman;
+}
+
+.drop1>p:nth-child(6) {
+    font-family: Verdana;
+}
+
+.drop1>p:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+.drop1>p {
+    margin-bottom: 0px;
+    padding-left: 15px;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.drop2>p:nth-child(1) {
+    font-size: 12px;
+}
+
+.drop2>p:nth-child(2) {
+    font-size: 14px;
+}
+
+.drop2>p:nth-child(3) {
+    font-size: 16px;
+}
+
+.drop2>p:nth-child(4) {
+    font-size: 18px;
+}
+
+.drop2>p:nth-child(5) {
+    font-size: 20px;
+}
+
+.drop2>p:nth-child(6) {
+    font-size: 22px;
+}
+
+.drop2>p:nth-child(7) {
+    font-size: 25px;
+}
+
+.drop2>p:nth-child(8) {
+    font-size: 30px;
+}
+
+.drop2>p {
+    margin-bottom: 0px;
+    padding-left: 15px;
+}
+
+.drop2>p:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+.modalWindow,
+.modalWindow2,
+.modalWindow3,
+.modalWindow4,
+.modalWindow5,
+.modalWindow6 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.whiteBlock {
+    width: 470px;
+    height: 230px;
+    background-color: white;
+    margin: 34px auto;
+    border-radius: 5px;
+    padding: 17px;
+}
+
+.top,
+.top2,
+.top3,
+.top4,
+.top5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exit,
+.exit2,
+.exit3,
+.exit4,
+.exit5 {
+    color: rgb(96, 100, 102);
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.bottom2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.bottomImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: none;
+}
+
+.block,
+.block2 {
+    width: 55px;
+    height: 45px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.block5 {
+    display: none;
+}
+
+.whiteBlock2 {
+    width: 470px;
+    height: 280px;
+    background-color: white;
+    margin: 34px auto;
+    padding: 17px;
+    border-radius: 5px;
+}
+
+.whiteBlock3 {
+    width: 435px;
+    height: 265px;
+    background-color: white;
+    margin: 34px auto;
+    border-radius: 5px;
+    padding-top: 17px;
+}
+
+.whiteBlock4 {
+    width: 710px;
+    height: 395px;
+    background-color: white;
+    margin: 34px auto;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.whiteBlock5,
+.whiteBlock6 {
+    width: 440px;
+    height: 300px;
+    background-color: white;
+    margin: 34px auto;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.middle {
+    display: flex;
+}
+
+.images,
+.files {
+    width: 60px;
+    height: 35px;
+    color: rgb(3, 129, 231);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.colors {
+    color: grey;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.block3 {
+    width: 130px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+}
+
+hr {
+    margin-top: -10px;
+}
+
+.blockFiles {
+    display: none;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.whiteBlock3 input {
+    height: 35px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.whiteBlock3 input:last-child {
+    background-color: gray;
+    color: white;
+}
+
+.whiteBlock3 input[type="text"],
+.whiteBlock3 input[type="password"] {
+    padding-left: 10px;
+}
+
+.textEmpty {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5%;
+    visibility: hidden;
+}
+
+.empty2,
+.empty3,
+.empty4 {
+    height: 15px;
+    width: 400px;
+}
+
+.textEmpty2 {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.textEmpty3,
+.textEmpty4 {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    visibility: hidden;
+    margin-top: 12px;
+}
+
+textarea {
+    resize: none;
+}
+
+.leftSide,
+.rightSide {
+    width: 50%;
+    height: 65%;
+    margin-top: 20px;
+    float: left;
+}
+
+.f2p,
+.f6p,
+.f7p {
+    margin-bottom: 5px;
+}
+
+.f2text {
+    height: 37px;
+    width: 95%;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.mOl,
+.mUl {
+    margin-bottom: 25px;
+}
+
+.f6text,
+.f7text {
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.button2 {
+    height: 37px;
+    width: 95%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: red;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.button3 {
+    height: 37px;
+    width: 95%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: limegreen;
+    text-align: center;
+    color: white;
+    margin-top: 36px;
+    cursor: pointer;
+}
+
+.rightBlock {
+    display: flex;
+    justify-content: flex-start;
+    width: 340px;
+    height: 75px;
+}
+
+.styleBorder {
+    width: 50%;
+    height: 100%;
+}
+
+.select {
+    height: 37px;
+    width: 90%;
+}
+
+.selectOl,
+.selectUl {
+    height: 35px;
+    width: 100%;
+}
+
+.button4,
+.button7 {
+    height: 35px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.button5,
+.button8 {
+    height: 35px;
+    width: 48%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.button6,
+.button9 {
+    height: 35px;
+    width: 48%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: limegreen;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    margin-left: 12px;
+}
